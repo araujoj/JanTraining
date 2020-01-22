@@ -9,7 +9,7 @@ pipeline {
     stage('Build') {
       steps { 
         sh 'ls'
-	sh 'mv * /usr/share/nginx/html/' 
+	sh 'cp * /usr/share/nginx/html/' 
       }
     }
   }
